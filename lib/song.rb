@@ -27,11 +27,11 @@ class Song
   
   def self.genre_count
     genre_count = {}
-    genre_count[@genre] = @@genres.count.uniq
+    genre_count[@genre] = self.genres.count
   end 
   
   def self.artist_count
     artist_count = {}
-    artist_count[@artist] = @@artist.count.uniq
+    artist_count[@artist] = @@artist.count
   end 
 end 
