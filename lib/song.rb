@@ -32,6 +32,6 @@ def Song
   
   def self.artist_count
     artist_count = {}
-    artist_count[@artist:] = @@artist.count.uniq
+    artist_count[@artist] = @@artist.count.uniq
   end 
 end 
